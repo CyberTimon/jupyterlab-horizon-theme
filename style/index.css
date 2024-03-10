@@ -20,6 +20,11 @@ pre {
   line-height: var(--jp-code-line-height);
 }
 
+.CodeMirror-cursor,
+.cm-s-obsidian .cm-cursor {
+  transition: all 80ms;
+}
+
 :where(
     .jp-RenderedText[data-mime-type='application/vnd.jupyter.stderr']
       pre
